@@ -1,0 +1,219 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3700707304,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "To check flow of Adactin hotel booking room functionality",
+        "description": "",
+        "id": "adactin-hotel-booking-room-functionality;to-check-flow-of-adactin-hotel-booking-room-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 711739110,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3629794536,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User in adcatin login page",
+            "match": {
+              "location": "StepDef.user_in_adcatin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 332144148,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter valid username and valid password",
+            "match": {
+              "location": "StepDef.user_enter_valid_username_and_valid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "MukeshMasailamani",
+                  "Since@1995"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2230849405,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click login button and user should navigate to search hotel page",
+            "match": {
+              "location": "StepDef.user_click_login_button_and_user_should_navigate_to_search_hotel_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2172217135,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User select all require field",
+            "match": {
+              "location": "StepDef.user_select_all_require_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 736336195,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click search button and should navigate to select hotel page",
+            "match": {
+              "location": "StepDef.user_click_search_button_and_should_navigate_to_select_hotel_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1054698044,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User select hotel in list and click continue and user should be navigate to book hotel page",
+            "match": {
+              "location": "StepDef.user_select_hotel_in_list_and_click_continue_and_user_should_be_navigate_to_book_hotel_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1086190129,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter details \"uvaish\",\"Mohamed\",\"GreenTech, perumbakkam ,Chennai.\",\"9874561233216549\",\"VISA\",\"2\", \"2022\",\"895\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uvaish\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Mohamed\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"GreenTech, perumbakkam ,Chennai.\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"9874561233216549\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 92
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 104
+                },
+                {
+                  "val": "\"895\"",
+                  "offset": 111
+                }
+              ],
+              "location": "StepDef.user_enter_details(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88921856,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click Booknow button and navigate to booking confirmation page",
+            "match": {
+              "location": "StepDef.user_click_Booknow_button_and_navigate_to_booking_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6524643521,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click my itinerary button then user get order id of booking details",
+            "match": {
+              "location": "StepDef.user_click_my_itinerary_button_then_user_get_order_id_of_booking_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 520750198,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click search hotel button moved to home page of search hotel page",
+            "match": {
+              "location": "StepDef.user_click_search_hotel_button_moved_to_home_page_of_search_hotel_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52964792,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should be succesflly navigate to search hotel main page",
+            "match": {
+              "location": "StepDef.user_should_be_succesflly_navigate_to_search_hotel_main_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adactin hotel booking room functionality",
+    "description": "",
+    "id": "adactin-hotel-booking-room-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/Flow.feature",
+    "tags": []
+  }
+]

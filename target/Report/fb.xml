@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.846207">
+<testcase classname="Adactin hotel booking room functionality" name="To check flow of Adactin hotel booking room functionality" time="22.846207">
+<system-out><![CDATA[Given User in adcatin login page............................................passed
+When User enter valid username and valid password...........................passed
+And User click login button and user should navigate to search hotel page...passed
+And User select all require field...........................................passed
+And User click search button and should navigate to select hotel page.......passed
+And User select hotel in list and click continue and user should be navigate to book hotel page.passed
+And user enter details "uvaish","Mohamed","GreenTech, perumbakkam ,Chennai.","9874561233216549","VISA","2", "2022","895".passed
+And User click Booknow button and navigate to booking confirmation page.....passed
+And User click my itinerary button then user get order id of booking details.passed
+And User click search hotel button moved to home page of search hotel page..passed
+Then User should be succesflly navigate to search hotel main page...........passed
+]]></system-out>
+</testcase>
+</testsuite>
